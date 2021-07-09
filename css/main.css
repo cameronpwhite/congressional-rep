@@ -1,0 +1,45 @@
+html {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+	background-color: lightblue;
+	margin: 0;
+}
+
+
+.rep__bio {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    border-style: solid;
+    border-color: teal;
+    text-align: justify;
+    width: 300px;
+    padding: 10px;
+    background-color: seashell;
+
+}
+
+.rep__bio img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.rep__bio h1 {
+    text-align: center;
+}
+
+.rep__bio h2 {
+    text-align: left;
+    font-size: 15px;
+}
+
+.rep__committees {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
